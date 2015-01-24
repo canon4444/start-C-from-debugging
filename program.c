@@ -9,6 +9,7 @@ int main(void)
 
     printf("キャラクターの名前を入力してください: ");
     scanf("%s", name);
+    printf("キャラクターの名前は%sでよいですか？ (Y/N)\n")
 
     return 0;
 }
